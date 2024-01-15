@@ -1,0 +1,14 @@
+{
+    "fields": {
+        "project": {
+            "key": "E2T"
+        },
+        "summary": "Xray Test Execution for Spread",
+        "issuetype": {
+            "id": "10210"
+        }
+    },
+    "xrayFields": {
+        "testPlanKey": "CPB...."
+    }
+}

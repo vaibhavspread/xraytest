@@ -1,0 +1,23 @@
+{
+  "name": "qa-engineer-challenge",
+  "version": "1.0.0",
+  "description": "E2E tests",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^12.17.4"
+  },
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:smoke-test": "cypress run --spec **/*.cy.js --reporter mochawesome",
+    "cy:run-e2e-chrome": "cypress run --config-file cypress.config.js  --spec **/*.cy.js  --browser=chrome --reporter junit"
+  },
+  "keywords": [
+    "cypress",
+    "test automation",
+    "javascript"
+  ],
+  "author": "Vaibhav Jagdale",
+  "devDependencies": {
+    "cypress-junit-reporter": "^1.3.1"
+  }
+}
